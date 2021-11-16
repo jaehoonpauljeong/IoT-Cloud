@@ -91,4 +91,6 @@ The Internet of Things (IoT) is a global infrastructure that provides intelligen
     (3)  ``` sudo ./ni_gateway ```
  
 ------------
-## Evaluation
+## Demo Video
+You can see demo video by following link.
+https://youtu.be/ZzA7dDJLuHk
