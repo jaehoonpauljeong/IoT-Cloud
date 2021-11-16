@@ -1,0 +1,19 @@
+$ORIGIN .
+$TTL 300	; 5 minutes
+cpslab.skku.edu		IN SOA	ns.cpslab.skku.edu. root.cpslab.skku.edu. (
+				202008118  ; serial
+				21600      ; refresh (6 hours)
+				1800       ; retry (30 minutes)
+				2419200    ; expire (4 weeks)
+				86400      ; minimum (1 day)
+				)
+			NS	ns.cpslab.skku.edu.
+			A	192.168.0.11
+			AAAA	2001:2c8:ee:100::1234
+$ORIGIN cpslab.skku.edu.
+ns			A	192.168.0.11
+			A	192.168.0.17
+			AAAA	2001:2c8:ee:100::1234
+LED.B827EB615431.x.y.400609.semiconductor.skku A 192.168.0.17
+test			AAAA	2001:a:a:a::1
+LED.B222DA112444.x.y.400222.semiconductor.skku A 192.168.0.123

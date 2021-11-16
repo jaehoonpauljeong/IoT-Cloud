@@ -1,0 +1,181 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: wyLyp0Vr6esDHou4LIiSrDXxhGpaz
+ j5yNgCtyhRuHM0=
+SHA-256-Digest-Manifest: 67veHPX0OJfa9BXtFTfW0bWvvUVaaxtxauBv2z2uEQI=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: META-INF/legal/LICENSE
+SHA-256-Digest: n8B7JTf5YOGCiVYdENAGk6ro+xi9heJHwCAx5qreYsw=
+
+Name: META-INF/legal/3rd-party/CDDL+GPL-1.1.txt
+SHA-256-Digest: c6D0rwEiepHfbUFCTY50w3k9e0hvz5TuXM8R4F14OvM=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCacheResource$1.cl
+ ass
+SHA-256-Digest: g4X4z01Ak2kR8dWGK2KNaoXqoD2TLUOPsP0ZAgbm/fw=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCoapResource$1.cla
+ ss
+SHA-256-Digest: xqYgnraRzmtyAJGICsSVLAjVp402qj1MOWFyCsYjz54=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCoapClientResource
+ .class
+SHA-256-Digest: S4ZHu+Cl9ydxbmC8Dj4CD3eACfhj1djvzbfB6NWAqW8=
+
+Name: org/eclipse/californium/proxy2/resources/StatsResource$StatHelpe
+ r.class
+SHA-256-Digest: QjFWsS6GxdMAKoBQoGzatd91/lrc8W6nC73paOLIsXE=
+
+Name: org/eclipse/californium/proxy2/resources/StatsResource.class
+SHA-256-Digest: jsmYQXuCXIv7g/ErnUAiJ6nqpPhyRIX9MufDP0Ao9I8=
+
+Name: org/eclipse/californium/proxy2/CoapUriTranslator.class
+SHA-256-Digest: B9veoSJwNMnz4BQJCpsKdxAkdX1MVsOUJcDapAyEUzg=
+
+Name: META-INF/legal/NOTICE.md
+SHA-256-Digest: XqGq38qUzHkE2HbMu2mYFXxVDeGBGr1l33n4n9qbpKA=
+
+Name: org/eclipse/californium/proxy2/HttpServer.class
+SHA-256-Digest: dkL+AdFMjxhAjVTJIfGs5ZCfm5xl2alfcCExzqmBoSI=
+
+Name: org/eclipse/californium/proxy2/resources/StatsResource$CacheStat
+ Resource.class
+SHA-256-Digest: 1Zp0fQLlA7PdNx/kjWoxEh4QqBjEw3gW2rc0Vwei2fY=
+
+Name: META-INF/legal/3rd-party/cc0-legalcode.html
+SHA-256-Digest: hYWWFzNr578iyK3CbG7G184fGBmITSXeJe2whB5kSv0=
+
+Name: org/eclipse/californium/proxy2/resources/ForwardProxyMessageDeli
+ verer.class
+SHA-256-Digest: qLvzYRaYMpaerWlae98noxQEEJJUgSvwHKnSBVH4SGc=
+
+Name: org/eclipse/californium/proxy2/TranslationException.class
+SHA-256-Digest: wDsY0r64u+W/VC6I59SEKjPpFACRn6yRCAszh/A4i2Y=
+
+Name: org/eclipse/californium/proxy2/HttpServer$1.class
+SHA-256-Digest: prhOBjrDJ2WlPb8ORaJoEndP/iUuCS8nc+UHY6O/Evs=
+
+Name: org/eclipse/californium/proxy2/ProxyHttpServer$1.class
+SHA-256-Digest: oWrBjOAji1t5Qh7GYsric1rYioG0lxaT4Sy+7wnHvrE=
+
+Name: org/eclipse/californium/proxy2/HttpTranslator.class
+SHA-256-Digest: vAAQiNuqEKIehunHV6+R225DIVHAxMejpt5e0sU6L1g=
+
+Name: META-INF/legal/3rd-party/BSD-3-Clause-LICENSE.txt
+SHA-256-Digest: O2knP0cQlpNpLScR+9YT8WCZrng400/x6WnTv7DohyQ=
+
+Name: org/eclipse/californium/proxy2/MappingProperties.class
+SHA-256-Digest: HBug8lRPF5BttP1d+lHAx74RAp8sfnQQSRKsYYoFHaQ=
+
+Name: META-INF/legal/3rd-party/APACHE-LICENSE-2.0.txt
+SHA-256-Digest: 7ksLzeb7Gwi+8TM9/1ZYv4/WR5pX8NQcEhWmHh5FmAw=
+
+Name: org/eclipse/californium/proxy2/HttpClientFactory$1.class
+SHA-256-Digest: IrjlTc9ueKPXjKIf8M+AgXHSpoOMzxjglspRXND1Vpw=
+
+Name: org/eclipse/californium/proxy2/Http2CoapTranslator.class
+SHA-256-Digest: 4H0SPMjBieW4StaKSdB9fA6pqtYkG540SP/tcqjubsY=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyHttpClientResource
+ $1.class
+SHA-256-Digest: rEaLWWp2r72fI+kVtYHXYGT7pKpidE1sWLKJ5Op2Yoc=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCoapClientResource
+ $1.class
+SHA-256-Digest: supp39XHDZzklsMtWR5gtTPybsv29oPqZPB26uSdGmo=
+
+Name: org/eclipse/californium/proxy2/resources/CacheKey.class
+SHA-256-Digest: 0JMsw2c/jawYOpW6nv9oKin/TN4CQ8igAUWM7rm/F1s=
+
+Name: org/eclipse/californium/proxy2/resources/CacheResource.class
+SHA-256-Digest: A3fmz53VHorysBJ1UOox3xx+eYOAFDPqCAlEy33Pv48=
+
+Name: org/eclipse/californium/proxy2/EndpointPool.class
+SHA-256-Digest: ZAolOgRyuLuFjtIXPooyiOCrYhKJiMf5HcFMNHQj3Do=
+
+Name: org/eclipse/californium/proxy2/resources/StatsResource$ProxyStat
+ Resource.class
+SHA-256-Digest: tC+U0IZFBkCR+j0AMG+BJUwGpgz7GwFocM4XSwXVBWs=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyHttpClientResource
+ .class
+SHA-256-Digest: 3h7Y9K9oAYqwJ8GKMZpj4BVMrxHYXgmZgsAZcGhErCY=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCacheResource$2.cl
+ ass
+SHA-256-Digest: LFLxptlSpWzp57YXCQbS2XMUQEJJv+w/agpdZr06IiU=
+
+Name: org/eclipse/californium/proxy2/HttpTranslator$1.class
+SHA-256-Digest: aGuFxqRxA+0f5/Plq4Jm3NYNExINgFBzaZSg3jwYIH0=
+
+Name: org/eclipse/californium/proxy2/resources/StatsResource$CacheStat
+ Resource$1.class
+SHA-256-Digest: x5Jzy54UsAWcPmZnVy1aQ9jBg0XFMk4BOfUrVgLHfqw=
+
+Name: org/eclipse/californium/proxy2/Coap2HttpTranslator.class
+SHA-256-Digest: zHQX0oYMO8HYYoeZFzXZz5hLmtcitQ3vpBAL7mvVgaU=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCacheResource.clas
+ s
+SHA-256-Digest: mBJEFxIWAikKx4xVsGicC6DWDBQfl7cMioscgGNbwFM=
+
+Name: META-INF/legal/3rd-party/MIT-license.html
+SHA-256-Digest: qFhnOsFM62Hgtg+edZWoCsnEGrdX4T0FdiU2/MmBPO8=
+
+Name: org/eclipse/californium/proxy2/resources/StatsResource$1.class
+SHA-256-Digest: SmJQ4TcV7Y9ij8TCcZ7BBjNKDSH6TBEgZ9S0l96mc7E=
+
+Name: org/eclipse/californium/proxy2/EndpointPool$PoolMessageObserver.
+ class
+SHA-256-Digest: eArbIRGTc/nJv4u75QSiieidd54EfX1TyLhcX0X1zLs=
+
+Name: org/eclipse/californium/proxy2/HttpStack$ProxyAsyncRequestHandle
+ r$1.class
+SHA-256-Digest: aRotKCXqXSvhuk7mo7yS6EzcbpjuZR3NfnBogdBryQY=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCoapResource$2.cla
+ ss
+SHA-256-Digest: r+4CRqZw7ypIfyeSpMrdYDY479rbhG3h4JZPLKvRDjU=
+
+Name: org/eclipse/californium/proxy2/HttpStack.class
+SHA-256-Digest: +DtgqnLX1LLxbGoGjWlNToXZkaBV2SILNO0jl1HpbeQ=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCoapResource.class
+SHA-256-Digest: 3g3hXcVlvOnqkc0iWD4TN/0EBjvDNb4q0/PgXfcHnyc=
+
+Name: org/eclipse/californium/proxy2/ProxyHttpServer.class
+SHA-256-Digest: LoD8ZQJdsz9NmnTpFTyg3O9VA5NzGx6Tzjxk46wUIFE=
+
+Name: org/eclipse/californium/proxy2/HttpServer$RequestCounterHandler.
+ class
+SHA-256-Digest: 0GPh4f/OdZhj6qpxz+CsvFTDLq/xpGagNuqd/vUh514=
+
+Name: org/eclipse/californium/proxy2/Coap2CoapTranslator.class
+SHA-256-Digest: kojVuQe6pOxiNdl6D8JA05qkSvm4pLDurCS57KqN7I8=
+
+Name: org/eclipse/californium/proxy2/ClientEndpoints.class
+SHA-256-Digest: XapjudG2S9ztoi6NXhQam28PSNNYn05VSxzE1b+oVnE=
+
+Name: org/eclipse/californium/proxy2/HttpStack$ProxyAsyncRequestHandle
+ r.class
+SHA-256-Digest: weIHL926iXaOQd6uYf9U43dyM036IEb/lB0sC+/0IY0=
+
+Name: org/eclipse/californium/proxy2/ClientSingleEndpoint.class
+SHA-256-Digest: Aqwdaak2ojTAk6CtdmGS6yaZ5iowuax1Xw+oR9YrLms=
+
+Name: org/eclipse/californium/proxy2/InvalidFieldException.class
+SHA-256-Digest: /fWP2FSvsIj0MkuwqiIhmV+9FF5OapEeuiJoOn1PCE8=
+
+Name: org/eclipse/californium/proxy2/HttpClientFactory.class
+SHA-256-Digest: 11OzcqTBRZXn1U6zBoXOOtQ/DuSu5ej1taD9ZDogqxM=
+
+Name: org/eclipse/californium/proxy2/resources/ProxyCoapClientResource
+ $ProxySendResponseMessageObserver.class
+SHA-256-Digest: e08IJ2wVVLH7b6harCBMCfIgBic3Gz37WdjnuNJy32w=
+
+Name: org/eclipse/californium/proxy2/InvalidMethodException.class
+SHA-256-Digest: LAVW4WdgkdB2dv/yzr9Tyd+ZljnOX+E6OM1nJ+oLj8o=
+
+Name: org/eclipse/californium/proxy2/EndpointPool$1.class
+SHA-256-Digest: AIwKe7ZmxY6wxgaqbKHYrUjmpN8h6HBWx1apv6YQ7go=
+

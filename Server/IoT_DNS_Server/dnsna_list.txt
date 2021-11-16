@@ -1,0 +1,3 @@
+B827EB340164 B827EB340164.UID.raspPi.LED.220.55.COORD.400609.ROOM.semicond.BUILDING.skku.LOC.cpslab.skku.edu
+DCA6321F7632 DCA6321F7632.UID.raspPi.LED.5.5.COORD.85461.ROOM.distributiveResearch.BUILDING.skku.LOCs.cpslab.skku.edu
+D8D8 D8D8.coorod.88.99.cpslab.skku.edu
