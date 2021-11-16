@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparent">#00FF0000</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorLifeWorkout">#EB9CC7FF</color>
+    <color name="colorEngineering">#FABF82</color>
+    <color name="colorNatural">#BEFF96</color>
+    <color name="colorResearch">#C7A8FC</color>
+    <color name="colorDormitory">#FFDFB3</color>
+    <color name="colorEtc">#B8B6B6</color>
+</resources>

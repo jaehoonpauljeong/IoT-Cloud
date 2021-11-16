@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/outline"
+    android:id="@+id/iotinfoLayout"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    tools:context=".activity.IoTInfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/iotDeviceInfoLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"><![CDATA[>
+            ]]>
+
+            <TextView
+                android:id="@+id/deviceInform"
+                android:text="디바이스 정보"
+                android:background="@drawable/outline"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/design_default_color_on_secondary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/deviceType"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@drawable/outline"
+                android:gravity="center"
+                android:text="타입"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deviceInform"
+                tools:layout_editor_absoluteY="85dp" />
+
+            <TextView
+                android:id="@+id/devicePosition"
+                android:text="위치"
+                android:gravity="center"
+                android:background="@drawable/outline"
+                android:textSize="15sp"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:textColor="@color/design_default_color_on_secondary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deviceType" />
+
+            <TextView
+                android:id="@+id/deviceDnsName"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/outline"
+                android:gravity="center"
+                android:text="DNS 이름"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/devicePosition" />
+
+            <TextView
+                android:id="@+id/deviceIpAddress"
+                android:text="IP 주소"
+                android:gravity="center"
+                android:background="@drawable/outline"
+                android:textSize="15sp"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:textColor="@color/design_default_color_on_secondary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deviceDnsName" />
+
+            <TextView
+                android:id="@+id/deviceControl"
+                android:text="디바이스 관리"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:background="@drawable/outline"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/design_default_color_on_secondary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deviceIpAddress" />
+
+            <TextView
+                android:id="@+id/iotDeviceType"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:background="@drawable/outline"
+                android:gravity="center"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deviceInform"
+                app:layout_constraintStart_toEndOf="@+id/deviceType"
+                tools:layout_editor_absoluteY="85dp" />
+
+            <TextView
+                android:id="@+id/iotDevicePosition"
+                android:textSize="15sp"
+                android:background="@drawable/outline"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/design_default_color_on_secondary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guideline4"
+                app:layout_constraintTop_toBottomOf="@+id/iotDeviceType" />
+
+            <TextView
+                android:id="@+id/iotDeviceDnsName"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:background="@drawable/outline"
+                android:gravity="center"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guideline4"
+                app:layout_constraintTop_toBottomOf="@+id/iotDevicePosition" />
+
+            <TextView
+                android:id="@+id/iotDeviceIpAddress"
+                android:textSize="15sp"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:background="@drawable/outline"
+                android:gravity="center"
+                android:textColor="@color/design_default_color_on_secondary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guideline4"
+                app:layout_constraintTop_toBottomOf="@+id/iotDeviceDnsName" />
+            <TextView
+                android:id="@+id/deviceLight"
+                android:gravity="center|left"
+                android:background="@drawable/outline"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:textColor="@color/design_default_color_on_secondary"
+                app:layout_constraintEnd_toEndOf="@+id/light_control"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deviceControl" />
+
+            <ImageView
+                android:id="@+id/light_control"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deviceControl" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="280dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

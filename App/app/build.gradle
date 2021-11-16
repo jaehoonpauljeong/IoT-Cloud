@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'org.jetbrains.dokka-android'
+
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.sala.iotlab.sala_app"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dokka {
+        outputFormat = 'html'
+        outputDirectory = "$buildDir/javadoc"
+    }
+}
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url "https://maven.itm.uni-luebeck.de/repository/snapshots"
+    }
+}
+dependencies {
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0-alpha02'
+    implementation 'androidx.core:core-ktx:1.3.0-alpha01'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha03'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha03'
+    implementation 'com.google.android.material:material:1.2.0-alpha04'
+    implementation 'com.github.Lukle:ClickableAreasImages:v0.1'
+    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0'
+    implementation 'dnsjava:dnsjava:3.0.0-next.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+}
