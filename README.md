@@ -78,8 +78,9 @@ The Internet of Things (IoT) is a global infrastructure that provides intelligen
 
  2. SALA<br/>
     Enter the following command in server. <br/>
-    ```sudo python2 sala_server_main.py ```
-
+    ```sudo python3 sala_server_main.py ```
+   Enter the following command in client.(folder: SALA) <br/>
+   ``` sudo python3 BLE.py```
 
  3. DNSNA<br/>
     (1) Enter the following command in client Raspberry Pie. <br/>
