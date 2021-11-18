@@ -34,7 +34,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138ff0f5-0870-4530-a5f2-453e5277ac9f" name="Default Changelist" comment="coap add">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,11 +106,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/control" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15252976" />
     <property name="project.structure.side.proportion" value="0.3643678" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,9 +176,7 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="iotcloud_client_iot [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -194,9 +195,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="iotcloud_client_iot [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -215,9 +214,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <list>
@@ -276,6 +273,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="coap add" />
     <option name="LAST_COMMIT_MESSAGE" value="coap add" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="175" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1637206228771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="175" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637206228771" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1637206236642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1637206236642" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

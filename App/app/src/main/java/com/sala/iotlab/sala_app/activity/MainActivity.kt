@@ -13,7 +13,7 @@ import org.jetbrains.anko.startActivity
 
 
 class MainActivity : AppCompatActivity() {
-    val CLOUD_IP = "192.168.1.29"
+    val CLOUD_IP = "192.168.1.85"
     val CLOUD_PORT = 9000
     val IMAGE_PORT = 9001
     var ADDR_CLASS = AddrStructure(CLOUD_IP, CLOUD_PORT, IMAGE_PORT)
