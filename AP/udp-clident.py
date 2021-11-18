@@ -61,6 +61,7 @@ def sendUDP():
     while True:
         message = ""
         for key, val in beacons4Server.items():
+            #message = str(key) + "," + str(val) + "," + str(seq) + ","
             message = str(key) + "," + str(val[0]) + "," + str(val[1]) + "," + str(val[2]) + "," + str(val[3]) + "," + str(val[4]) + ","
             
         if seq_n != prevSeq:
@@ -68,10 +69,12 @@ def sendUDP():
             prevSeq = seq_n
             encodedMsg = message.encode(encoding="utf-8")
 
-            client.sendto(encodedMsg, (SERVER_IP, 6000))
+            # print(byteData)
+            client.sendto(encodedMsg, (SERVER_IP, 6000)) # 2001:db8:100:15a::3
             client.sendto(encodedMsg, ("192.168.1.35", 6000))
+            client.sendto(encodedMsg, ("192.168.1.74", 6000))
             print("message sent!")
-        
+             
         time.sleep(0.5)
 
 if __name__ == "__main__":

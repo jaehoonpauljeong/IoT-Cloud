@@ -84,9 +84,7 @@ def parse_events(sock, deviceMap):
                             print("[received all beaconMsg] - Working time: ", time.time() - startTime)
                             printData(reversedUuid, deviceMap)
                             SALAManager.sendMsg(deviceMap[reversedUuid])
-                            deviceMap[reversedUuid].reset()
-                            time.sleep(2.5)
-                            startTime = time.time()
+
                 deviceMap[reversedUuid].pre_data = recvData
 
             elif dataString[32:40] == '4d000215':  

@@ -9,7 +9,6 @@ static unsigned char sendbuf[BUFSIZE];
 static unsigned char recvbuf[BUFSIZE];
 static char temp_str_buf[256];
 static char debug[64];
-static char ipAddr[64];
 static unsigned char ip1[SIZE_IPADDRESS_BINARY];
 static unsigned char ip2[SIZE_IPADDRESS_BINARY];
 static char dnsna[256];
@@ -137,35 +136,17 @@ int main(){
         strcpy(dnsna, temp_cut_str[0]);
         strcpy(dnsna_sala, temp_cut_str[1]);
 
-        printf("dnsna: %s\ndnsna_sala: %s\nIPv6: %s", dnsna, dnsna_sala, ip1);
+        printf("dnsna: %s\ndnsna_sala: %s\n", dnsna, dnsna_sala);
         break;
       }
     }
   }
-
-
-  ///////////////////
-  // char temp_text[256];
-  // memset(temp_text, 0, sizeof(temp_text));
-  // struct stat buffer;
-  // int sala_change = 0;
-  // int exist = stat(dnsna, &buffer);
-  // char mac[20]; memset(mac, 0, 20);
-
-  // memset(temp_text, 0, sizeof(temp_text));
-  // FILE* fptr = fopen("dnsna_list.txt","r+");
-	// FILE* nfptr = fopen("dnsna_list.cmp.txt", "w");
-  // char recv_mac[20]; memset(recv_mac, 0, 20);
-  // // Get mac addr
-  // int i = 0;
-  ////////////////////
-  
-  //////////// save dnsna_list.txt ////////////
   
   FILE *fptr;
   FILE *nfptr;
 
 
+  //////////// save dnsna_list.txt ////////////
   char temp_text[256];
   memset(temp_text, 0, sizeof(temp_text));
   struct stat buffer;
@@ -178,6 +159,7 @@ int main(){
 	nfptr = fopen("dnsna_list.cmp.txt", "w");
   char recv_mac[20]; memset(recv_mac, 0, 20);
   // Get mac addr
+  
   int i = 0;
   while(dnsna_sala[i] != '.') {
     recv_mac[i] = dnsna_sala[i];
@@ -206,13 +188,14 @@ int main(){
 		system("sudo rm dnsna_list.cmp.txt");
 	}
 	else {
-        sala_change = 1;
+		sala_change = 1;
 		system("sudo mv -f dnsna_list.cmp.txt dnsna_list.txt");
 	}
   ///////////////////////////////////////////
-
   if(sala_change){
+	printf("\n.\n.\n.\n.\n.\n.\n.\n.\n.SALACHANGE\n.\n.\n.");
     fptr = fopen("dnsna_update.file", "w");
+    inet_ntop(AF_INET6, ip2, debug, SIZE_IPADDRESS_TEXT);
     sprintf(text_buf, "server %s\n\nupdate delete %s AAAA\n\nsend\n",SERVER_IPV4, temp_text);
     printf("%s\n", text_buf);
     fprintf(fptr, "%s", text_buf);
@@ -223,7 +206,8 @@ int main(){
   }
 
   fptr = fopen("dnsna_update.file", "w");
-  sprintf(text_buf, "server %s\n\nprereq nxdomain %s\n\nupdate add %s 300 IN AAAA %s\nsend\n", SERVER_IPV4, dnsna, dnsna, ipAddr);
+  inet_ntop(AF_INET6, ip1, debug, SIZE_IPADDRESS_TEXT);
+  sprintf(text_buf, "server %s\n\nprereq nxdomain %s\n\nupdate add %s 300 IN AAAA %s\nsend\n", SERVER_IPV4, dnsna, dnsna, debug);
   printf("%s\n", text_buf);
   fprintf(fptr, "%s", text_buf);
   sprintf(text_buf, "/usr/bin/nsupdate -d -y rndc-key:%s %s",RNDC_KEY, "dnsna_update.file");
@@ -233,7 +217,7 @@ int main(){
 
 
   fptr = fopen("dnsna_update.file", "w");
-  sprintf(text_buf, "server %s\n\nprereq nxdomain %s\n\nupdate add %s 300 IN AAAA %s\nsend\n", SERVER_IPV4, dnsna_sala, dnsna_sala, ipAddr);
+  sprintf(text_buf, "server %s\n\nprereq nxdomain %s\n\nupdate add %s 300 IN AAAA %s\nsend\n", SERVER_IPV4, dnsna_sala, dnsna_sala, debug);
   printf("%s\n", text_buf);
   fprintf(fptr, "%s", text_buf);
   sprintf(text_buf, "/usr/bin/nsupdate -d -y rndc-key:%s %s",RNDC_KEY, "dnsna_update.file");
