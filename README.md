@@ -2,7 +2,7 @@
 
 ## Overview
 The Internet of Things (IoT) is a global infrastructure that provides intelligent services by combining knowledge based on situational awareness, and communicates between people and things(physically or virtual), things and things through a network where intelligent things are connected. As the pace of development of IoT technology increases, the number of devices that can be handled by an individual has also increased. <br/><br/>
- <img src = "data/IoTCloud_example1.png" width="80%" height="80%"><br/>
+ <img src = "data/IoTCloud_example1-1.png" width="80%" height="80%"><br/>
  [image1] Overview image of IoT cloud in smart place<br/>
  <br/>
  
