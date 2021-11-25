@@ -72,14 +72,16 @@ The Internet of Things (IoT) is a global infrastructure that provides intelligen
             <br/>
             Wait until you turn on the BLE with your smartphone.<br/>
         (2) Server: <br/>
-                    ``` python3 ./BeaconIPS-main-experiment.py —scheme ips ```
+                    ``` python3 ./BeaconIPS-main-experiment.py --scheme ips ```
             <br/>
             Wait until the APs send rssi information.<br/>
 
  2. SALA<br/>
     Enter the following command in server. <br/>
-    ```sudo python2 sala_server_main.py ```
-
+    ```sudo python3 sala_server_main.py ```
+    <br/>
+   Enter the following command in client.(folder: SALA) <br/>
+   ``` sudo python3 BLE.py```
 
  3. DNSNA<br/>
     (1) Enter the following command in client Raspberry Pie. <br/>
