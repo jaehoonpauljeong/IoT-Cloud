@@ -59,7 +59,7 @@ class FloorViewAdapter(
                         startActivity<IoTSelectionActivity>(
                             "PORT_INFO" to Gson().toJson(PORT_INFO),
                             "ROOM_INFO" to ROOM_RESPONSE,
-                            "BUILDING_NAME" to BUILDING_INFO.name
+                            "BUILDING_NAME" to BUILDING_INFO.name // if you replace BUILDING_INFO.k_name, you can get korean name of building
                         )
                     }
                 }
