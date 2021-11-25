@@ -34,7 +34,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138ff0f5-0870-4530-a5f2-453e5277ac9f" name="Default Changelist" comment="coap add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/sala/helper/FloorViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/sala/helper/FloorViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/structure/BuildingStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/structure/BuildingStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_iotselection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_iotselection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/structure/data/BuildingStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/structure/data/BuildingStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/distributiveResearch/distributiveResearch.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/distributiveResearch/distributiveResearch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/skku.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/skku.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/structure/data/BuildingStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/structure/data/BuildingStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/distributiveResearch/distributiveResearch.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/distributiveResearch/distributiveResearch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/skku.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/skku.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +119,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/control" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15252976" />
     <property name="project.structure.side.proportion" value="0.3643678" />

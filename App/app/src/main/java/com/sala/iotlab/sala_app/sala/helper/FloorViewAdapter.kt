@@ -55,7 +55,7 @@ class FloorViewAdapter(
                     enter.isEnabled = true
                     enter.setOnClickListener {
                         onButtonClick(whichRoom)
-
+                        Log.d("debug", BUILDING_INFO.id)
                         startActivity<IoTSelectionActivity>(
                             "PORT_INFO" to Gson().toJson(PORT_INFO),
                             "ROOM_INFO" to ROOM_RESPONSE,

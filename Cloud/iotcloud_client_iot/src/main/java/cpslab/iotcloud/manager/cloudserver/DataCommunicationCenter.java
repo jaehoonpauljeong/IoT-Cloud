@@ -46,7 +46,7 @@ public class DataCommunicationCenter {
         FileHelper reader = new FileHelper();
         SectionStructure tmp = new SectionStructure();
         tmp.id = "skku";
-        tmp.fullDns = tmp.id + ".edu";
+        tmp.fullDns = tmp.id;
         tmp.name = "성균관대";
         tmp.img = tmp.id + ".jpg";
         tmp.buildings = new HashMap<String, String>() {{
@@ -133,7 +133,9 @@ public class DataCommunicationCenter {
             put("103", "constructionManagement");
             put("104", "powerPlant");
         }};
+
         String path = NetworkHelper.reverseURL(tmp.fullDns);
+        System.out.println(path.replace(".", "/") + "/");
         conv.convertToJsonFile(path.replace(".", "/") + "/", tmp.id + ".json", tmp);
     }
     /**
@@ -144,7 +146,8 @@ public class DataCommunicationCenter {
         JsonObjectConverter<BuildingStructure> conv = new JsonObjectConverter<>(BuildingStructure.class);
         FileHelper reader = new FileHelper();
         BuildingStructure tmp = new BuildingStructure();
-        tmp.name = "산학협력센터";
+        tmp.name = "Corporate Collaboration Center";
+        tmp.k_name = "산학협력센터";
         tmp.id = "distributiveResearch";
         tmp.fullDns = "distributiveResearch.skku";
         tmp.floors = 7;
@@ -188,6 +191,6 @@ public class DataCommunicationCenter {
     public static void main(String[] args) throws IOException {
         addSectionInfo();
         addBuildingInfo();
-        addRoomInfo();
+        //addRoomInfo();
     }
 }
