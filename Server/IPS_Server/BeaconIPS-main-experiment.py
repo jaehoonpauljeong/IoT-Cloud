@@ -54,7 +54,7 @@ def _arrow3D(ax, x, y, z, dx, dy, dz, *args, **kwargs):
 # coeffB = -0.1409
 
 WEIGHT_MAP_PATH = "data/weight_map3.csv"
-TOTAL_AP = 5
+TOTAL_AP = 6
 AP_COUNT = 0
 
 APDict = {}
@@ -63,7 +63,6 @@ PORT = 6000
 
 # TagCount = 1
 TAG_COUNT = 1
-
 PARTICLE_COUNT = 10
 
 RANDOM_WALK_CNT = 5
@@ -173,6 +172,8 @@ def ip2Coor(ipAddr):
 		return [SCENE_X, 0.00]
 	elif str(splIPAddr[len(splIPAddr)-1]) == '79':
 		return [3.6, 3.0]
+	elif str(splIPAddr[len(splIPAddr)-1]) == '76':
+		return [3.6, SCENE_Y]
 	else:
 		logging.error(f'cannot find a coord for AP: {ipAddr}')
 		# thrObject.join()
@@ -391,8 +392,8 @@ if __name__ == "__main__":
 		# print(tagId, randCoor)
 
 	while True:
-    		if 	AP_COUNT == TOTAL_AP:
-    				break
+		if AP_COUNT == TOTAL_AP:
+			break
 				
 	if len(APDict) < 2:
 		logging.error(f'AP count is not enough: {len(APDict)}')

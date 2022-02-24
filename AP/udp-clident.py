@@ -72,9 +72,10 @@ def sendUDP():
             # print(byteData)
             client.sendto(encodedMsg, (SERVER_IP, 6000)) # 2001:db8:100:15a::3
             client.sendto(encodedMsg, ("192.168.1.35", 6000))
-            client.sendto(encodedMsg, ("192.168.1.74", 6000))
+            client.sendto(encodedMsg, ("192.168.1.87", 6000))
+            client.sendto(encodedMsg, ("192.168.1.85", 6000))
             print("message sent!")
-             
+        
         time.sleep(0.5)
 
 if __name__ == "__main__":

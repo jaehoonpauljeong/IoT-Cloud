@@ -19,7 +19,7 @@ import java.io.IOException;
  *  - IoT Server
  */
 public class Main {
-    private static final String CLOUD_IP = "192.168.1.29";
+    private static final String CLOUD_IP = "192.168.1.47";
     private static final int CLOUD_PORT = 9000;
 
     private static final String myInfoPath = "/skku/distributiveResearch/85461";

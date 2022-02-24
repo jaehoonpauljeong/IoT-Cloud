@@ -67,7 +67,7 @@ def parse_events(sock, deviceMap, loop_count=100):
         packet = sock.recv(255)
         dataString = packetToString(packet)
         rssi, = struct.unpack("b", packet[len(packet)-1:])
-        
+     
         if len(dataString) > 64: 
             reversedUuid = reverseUuid(dataString[32:64])
             if reversedUuid in deviceMap:

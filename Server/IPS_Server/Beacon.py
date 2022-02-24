@@ -51,6 +51,9 @@ class Beacon:
 		elif _from == "192.168.1.79":
 			n = 1.68997563
 			a  = -62.46355815
+		elif _from == "192.168.1.76":
+			n = 1.21291688
+			a  = -59.26463703
 	def setSize(self, size):
 		self.size = size
 

@@ -82,6 +82,7 @@ if __name__ == "__main__":
     reader = LogReader()
 
     filePath = args.path
+    
     logData = reader.readFolderRPI(folderDir=filePath[0])
 
     collData = proCaliData(logData)

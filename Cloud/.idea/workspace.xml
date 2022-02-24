@@ -34,23 +34,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138ff0f5-0870-4530-a5f2-453e5277ac9f" name="Default Changelist" comment="coap add">
-      <change beforePath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/sala/helper/FloorViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/sala/helper/FloorViewAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/structure/BuildingStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/structure/BuildingStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_iotselection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_iotselection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AP/ScanUtility.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AP/ScanUtility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AP/udp-clident.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AP/udp-clident.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../App/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../App/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app/src/main/java/com/sala/iotlab/sala_app/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/structure/data/BuildingStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/structure/data/BuildingStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/distributiveResearch/distributiveResearch.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/distributiveResearch/distributiveResearch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/skku.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/resources/main/skku/skku.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/manager/cloudserver/DataCommunicationCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/structure/data/BuildingStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/structure/data/BuildingStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/distributiveResearch/distributiveResearch.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/distributiveResearch/distributiveResearch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/skku.json" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/resources/skku/skku.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/runnable/localserver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/classes/java/main/cpslab/iotcloud/runnable/localserver/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/build/libs/iotcloud_client_iot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/build/libs/iotcloud_client_iot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/runnable/localserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/iotcloud_client_iot/src/main/java/cpslab/iotcloud/runnable/localserver/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +71,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="iotcloud_client_iot" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="iotcloud_client_iot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="iotcloud_client_iot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -145,7 +153,7 @@
       <recent name="edu.skku.cpslab.iotcloud.structure.data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.iotcloud_client_iot [build]">
     <configuration name="CompactHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cpslab.iotcloud.network.core.CompactHttpClient" />
       <module name="iotcloud_client_iot.main" />
@@ -155,13 +163,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cpslab.iotcloud.runnable.localserver.Main" />
-      <module name="iotcloud_client_iot.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,21 +237,42 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="iotcloud_client_iot [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/iotcloud_client_iot" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.CompactHttpClient" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.iotcloud_client_iot [Main.main()]" />
       <item itemvalue="Gradle.iotcloud_client_iot [build]" />
       <item itemvalue="Gradle.iotcloud_client_iot [buildDependents]" />
+      <item itemvalue="Gradle.iotcloud_client_iot [jar]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.iotcloud_client_iot [build]" />
+        <item itemvalue="Gradle.iotcloud_client_iot [jar]" />
         <item itemvalue="Gradle.iotcloud_client_iot [buildDependents]" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CompactHttpClient" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
